@@ -13,31 +13,213 @@
     <!--	FontAwesome	-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
     <!--Styles CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://www.flaticon.com/svg/vstatic/svg/1932/1932893.svg?token=exp=1617748786~hmac=3ea68f70f4e6b6fcf96e18e51aa925e5">
+
 
     <title>Viajes Chile</title>
 </head>
 
 <body>
-
+    <!--Barra de navegacion-->
     <nav>
-        icono+viajes chile //  inicio + quienes somos + destacados + contactos fixed
+        <nav class="mx-5 navbar navbar-expand-lg navbar-dark bg-transparent text-white fixed-top">
+            <img src="assets/img/viajes.svg" alt="logonavbar" class="navbarimg">
+            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-none d-md-block" href="#quienessomos">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </nav>
+    <!--Carousel-->
     <div>
-        carusel
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
+            </div>
+        </div>
     </div>
+    <!--Contenedor del contenido-->
+    <section class="container paddingmobile">
+        <!--Seccion ¿Quiénes somos?-->
+        <div class="d-none d-md-block">
+            <h3 id="quienessomos" class="text-center text-white">¿Quiénes somos?</h3>
+            <hr class="bg-info">
+            <div class="card-group pb-5">
+                <div class="card bg-transparent">
+                    <div class="card-body col-12 col-mb-4">
+                        <div class="bg-info py-1 mb-1 fontaimg">
+                            <i class="fas fa-plane fa-2x"></i>
+                        </div>
+                        <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                            maiores,
+                            doloremque rem illo et explicabo deserunt id assumenda natus, nihil amet in, ratione
+                            consequuntur laboriosam illum quidem! At, cumque laborum? This is a wider card with
+                            supporting
+                            text below as a natural lead-in to Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Rerum minus corrupti iste, vero repellendus adipisci harum pariatur vitae illo voluptates
+                            itaque
+                            consequatur nihil suscipit excepturi necessitatibus consectetur, obcaecati repudiandae
+                            cumque?
+                            additional
+                            content. This content is a little bit longer. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolores iusto, dolor ullam nostrum, reiciendis
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-transparent">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                            excepturi
+                            est aspernatur consectetur quasi ad, iusto iure doloribus sunt atque odit ab, dolorem, quod
+                            facere ratione vero distinctio ut eaque? This card has supporting text below as a natural
+                            lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Nihil
+                            eaque error officia? Illum modi, odit eaque rem, illo quas magni hic repellat veritatis in
+                            cumque et pariatur voluptatem porro dignissimos. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Ipsum illum mollitia accusantium quas atque aperiam, et tempora provident
+                            asperiores ut assumenda quidem consequuntur consectetur sit dolorem. Quis qui animi
+                            reprehenderit.
+                        </p>
+                    </div>
+                    <div class="bg-info py-1 mt-1">
+                        <i class="fas fa-mountain fa-2x"></i>
+                    </div>
+                </div>
+                <div class="card bg-transparent">
+                    <div class="card-body">
+                        <div class="bg-info py-1 mb-1">
+                            <i class="fas fa-route fa-2x"></i>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ex
+                            architecto sint nisi omnis at totam consequuntur, mollitia obcaecati aperiam ducimus
+                            possimus
+                            doloremque aspernatur consectetur eum et perspiciatis quae laudantium! Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Eligendi sunt dolores, tenetur reiciendis eos itaque
+                            asperiores pariatur adipisci esse libero ut repellat dolorem, nostrum placeat deserunt.
+                            Accusantium nostrum explicabo quibusdam? Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Architecto, molestiae. Fuga explicabo temporibus, ad qui quod quos officia molestias
+                            totam
+                            harum consequuntur voluptatum, maxime in recusandae ducimus maiores tenetur eligendi. </p>
+                    </div>
 
-    <section>
-        container
+                </div>
+            </div>
+        </div>
 
-        
+        <!--Seccion Destacados-->
+        <h3 id="destacados" class="text-center">Destacados</h3>
+        <hr class="bg-info">
+        <div class="card-deck pb-3">
+            <div class="card">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="img1destacados">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquam
+                        nisi inventore vitae.
+                        Officia quos sed
+                        nesciunt saepe! Voluptas eveniet,
+                        laboriosam nulla vitae odit ab minima laborum blanditiis autem. Voluptatibus?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card2.jpg" class="card-img-top cardsize" alt="img2destacados">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">onsectetur adipisicing elit</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquam
+                        nisi inventore vitae.
+                        Officia quos sed
+                        nesciunt saepe! Voluptas eveniet,
+                        laboriosam nulla vitae odit ab minima laborum blanditiis autem. Voluptatibus?
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="img3destacados">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">Laudantium aliquam nisi inventore vitae</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquam
+                        nisi inventore vitae.
+                        Officia quos sed
+                        nesciunt saepe! Voluptas eveniet,
+                        laboriosam nulla vitae odit ab minima laborum blanditiis autem. Voluptatibus?
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="img4destacados">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">sed nesciunt saepe! Voluptas eveniet</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquam
+                        nisi inventore vitae.
+                        Officia quos sed
+                        nesciunt saepe! Voluptas eveniet,
+                        laboriosam nulla vitae odit ab minima laborum blanditiis autem. Voluptatibus?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Seccion Contacto-->
+        <h3 id="contacto" class="text-center my-3">Contacto</h3>
+        <hr class="bg-info">
+        <div class="card my-5 text-center text-dark containercontacto">
+            <div class="card-body">
+                <p class="card-text">Hola, gracias por contactarnos</p>
+                <input id="enviarcorreo" type="submit" value="Comenzar"
+                    class="bg-primary text-white rounded border border-primary textocontacto">
+
+            </div>
+        </div>
+
     </section>
-
-    <footer>
-
+    <!--Footer-->
+    <footer class="bg-info pt-3">
+        <div class="container">
+            <div class="row mx-5">
+                <div class="col-5">
+                    <h4>VIAJES CHILE</h4>
+                </div>
+                <div class="col-7 text-right">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-
 
 
 
@@ -50,6 +232,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
     <script src="assets/js/script.js"></script>
 
 </body>

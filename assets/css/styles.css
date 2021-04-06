@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+
+/* margen img de seccion quienes somos */
+.card i {
+   
+margin-left: 47%;
+
+}
+
+/* ajuste para imagen 2 de destacados */
+.cardsize {
+    height: 168.68px;
+}
+
+h3 {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+input {
+    padding: 10px;
+}
+
+footer i {
+    padding: 12px;
+}
+
+a {
+    color: white;
+    
+}
+
+/* ajuste de tamaño de imagen en barra de navegacion */
+.navbarimg {
+    height: 30px;
+}
+
+
+/* ajuste del tamaño del container de seccion contacto */
+.containercontacto {
+    padding: 100px 0px;
+    
+}
+.card-deck {
+    margin-bottom: 100px;
+
+}
+
+.card-title {
+    font-weight: 300;
+}
+    
+.textocontacto {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) { 
+    .paddingmobile {
+        padding: 0px 25px;
+    }
+ }
