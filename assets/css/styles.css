@@ -8,7 +8,7 @@ body {
 /* margen img de seccion quienes somos */
 .card i {
    
-margin-left: 47%;
+margin-left: 45%;
 
 }
 
@@ -21,8 +21,9 @@ h3 {
     margin-top: 75px;
     margin-bottom: 25px;
 }
-input {
-    padding: 10px;
+
+h4 {
+    padding-top: 12px;
 }
 
 footer i {
