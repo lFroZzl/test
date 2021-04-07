@@ -1,6 +1,9 @@
+
 $(function () {
 
     $('[data-toggle="tooltip"]').tooltip()
+
+    /* 3 on click agregados en quienes somos apretando div de la imagen */
 
     $(".click-me-1").click(function () {
         $(".texto-card-1").toggle("slow", function () {

@@ -59,6 +59,7 @@ a {
     font-weight: bold;
 }
 
+/* pequeño arreglo al borde en mobile */
 @media (max-width: 576px) { 
     .paddingmobile {
         padding: 0px 25px;
