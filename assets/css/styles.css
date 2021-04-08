@@ -15,6 +15,8 @@ margin-left: 45%;
 /* ajuste para imagen 2 de destacados */
 .cardsize {
     height: 168.68px;
+    object-fit: cover;
+    object-position: center;
 }
 
 h3 {
@@ -59,9 +61,36 @@ a {
     font-weight: bold;
 }
 
+
 /* pequeño arreglo al borde en mobile */
 @media (max-width: 576px) { 
     .paddingmobile {
         padding: 0px 25px;
     }
+    h4 {
+        text-align: center;
+        object-position: center;
+        vertical-align: middle;
+        margin-top: 17px;
+    }
  }
+
+/* 
+ .asdasdas{
+     object-fit: cover;
+     height: 100%;
+ }
+ */
+
+ /* --inspeccionar--
+
+.carousel-item {
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: 100%;
+    object-position: center;
+}
+
+*/
